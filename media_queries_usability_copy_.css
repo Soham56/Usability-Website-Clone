@@ -1,0 +1,278 @@
+@media screen and (max-width: 991px) {
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    p{
+        font-size: 1.1rem;
+    }
+
+    .main-nav{
+        position: relative;
+        overflow: hidden;
+        transition: 1s;
+    }
+
+    .visble{
+        overflow: visible;
+    }
+
+    .nav-links{
+        position: absolute;
+        top: 100%;
+        left: 200%;
+        right: 0px;
+        margin-inline: auto;
+        background-color: aliceblue;
+        padding: 20px;
+        transition-duration: 1s;
+    }
+
+    .nav-links ul{
+        flex-direction: column;
+    }
+
+    .active{
+        left: 0px;
+    }
+
+    .hamburger_menu{
+        display: block;
+    }
+
+    .example-body{
+        gap: 20px;
+    }
+
+    .example-child{
+        width: calc(50% - 10px);
+        min-height: 180px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .primary-button{
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-section{
+        flex-direction: column-reverse;
+    }
+
+    .header-left{
+        max-width: 90vw;
+        text-align: center;
+    }
+
+    .header-left p{
+        margin-block: 10px;
+    }
+
+    .feature-card{
+        flex-basis: calc(50% - 10px);
+    }
+
+    .feature-card p,.feature-button{
+        font-size: 1rem;
+    }
+
+    .features-sections{
+        background-size: 0px;
+    }
+
+    .big-feature-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .big-feature-image{
+        width: 85%;
+    }
+
+    .big-feature-body{
+        width: 90%;
+    }
+
+    .second-big-feature{
+        flex-direction: column-reverse;
+        
+    }
+
+    .example-header{
+        text-align: center;
+    }
+
+    .pricing-container{
+        flex-direction: column-reverse;
+    }
+
+    .pricing-image{
+        width: 60vw;
+    }
+
+    .pricing-main-img{
+        width: 100%;
+        height: 50%;
+    }
+
+    .pricing-pic-oval h3{
+        font-size: 1rem;
+    }
+
+    .pricing-pic-oval p{
+        margin-block: 0px;
+        font-size: 1rem;
+    }
+
+    .price{
+        font-size: 2rem;
+    }
+
+
+
+    
+    .pricing-body{
+        width: 80vw;
+    }
+
+    .pricing-body h2{
+        text-align: center;
+    }
+
+    .cta-section{
+        margin-block: 80px;
+    }
+
+    footer{
+        padding: 50px;
+    }
+
+    .footer-body{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-child li a{
+        margin-block: 6px;
+        font-size: 0.9rem;
+    }
+
+    .subfooter-container{
+        justify-content: space-around;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .top-banner p{
+        font-size: 0.8rem;
+    }
+
+    .logo-section img{
+        width: 150px;
+    }
+
+    .header-left h1{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .header-left p{
+        font-size: 1.05rem;
+    }
+
+    .feature-card{
+        flex-basis: 100%;
+    }
+
+    .big-feature-body{
+        text-align: center;
+    }
+
+    .brand-man{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .brand-man-pic{
+        width: 60px;
+        height: 60px;
+        align-self: center;
+    }
+
+    .big-feature-body p{
+        font-size: 1.1rem;
+    }
+
+    .big-feature-heading{
+        margin-block: 15px;
+    }
+
+    .example-body{
+        gap: 14px;
+    }
+
+    .example-child{
+        text-align: center;
+        width: 90vw;
+    }
+
+    .example-text{
+        font-size: 1rem;
+    }
+
+    .pricing-image{
+        width: 85vw;
+    }
+
+    .pricing-body{
+        text-align: center;
+    }
+
+    .pricing-body h2{
+        font-size: 2rem;
+    }
+
+    .pricing-body p{
+        font-size: 1rem;
+    }
+
+    .pricing-body h3::before{
+        content: ": ";
+    }
+
+    .pricing-details{
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .pricing-details ul{
+        list-style: none;
+    }
+
+    .pricing-details li{
+        margin-block: 10px;
+    }
+
+    .cta-container{
+        text-align: center;
+    }
+
+    .subfooter-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .subfooter-body{
+        flex-direction: column;
+        text-align: center;
+    }
+}
